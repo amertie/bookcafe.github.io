@@ -47,6 +47,66 @@ nav ul li a {
   border-radius: 4px;
 }
 
+
+.card {
+  margin: 80px auto;
+  max-width: 700px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.about-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+.about-button {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.contact-container {
+  margin: 80px auto;
+  max-width: 700px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-info {
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .contact-info {
+    text-align: center;
+  }
+}
+
+
 .menu {
   text-align: center;
   padding: 50px 0;
